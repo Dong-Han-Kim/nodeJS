@@ -1,14 +1,17 @@
 {
-  "name": "first-node",
-  "version": "1.0.0",
-  "description": "NodeJS 및 express 시작",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Han",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+	"name": "first-node",
+	"version": "1.0.0",
+	"description": "NodeJS 및 express 시작",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"author": "Han",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	}
 }
